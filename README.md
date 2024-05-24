@@ -17,6 +17,15 @@ We will continue the example described in Factory Method. In a restaurant, custo
 
 <img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/4d6ef590-8144-48ab-b543-9f1286f39f3b">
 
+## Builder Pattern
+The Builder Pattern is used to construct a complex object step by step. Unlike the Factory Pattern, which focuses on the creation of a single object, the Builder Pattern constructs an object using a series of steps or a sequence of method calls.
+
+***Example:***
+In a restaurant scenario, meals can have multiple varieties of dishes, and customers can customize their meals according to their preferences.
+
+
+
+
 
 
 
