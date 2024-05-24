@@ -23,6 +23,9 @@ The Builder Pattern is used to construct a complex object step by step. Unlike t
 ***Example:***
 In a restaurant scenario, meals can have multiple varieties of dishes, and customers can customize their meals according to their preferences.
 
+<img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/a66fe75e-84e1-4c17-9f67-553886062652">
+
+
 
 
 
