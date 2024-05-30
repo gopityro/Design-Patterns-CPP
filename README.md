@@ -17,6 +17,7 @@ We will continue the example described in Factory Method. In a restaurant, custo
 
 <img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/4d6ef590-8144-48ab-b543-9f1286f39f3b">
 
+
 ## Builder Pattern
 The Builder Pattern is used to construct a complex object step by step. Unlike the Factory Pattern, which focuses on the creation of a single object, the Builder Pattern constructs an object using a series of steps or a sequence of method calls.
 
@@ -24,6 +25,17 @@ The Builder Pattern is used to construct a complex object step by step. Unlike t
 In a restaurant scenario, meals can have multiple varieties of dishes, and customers can customize their meals according to their preferences.
 
 <img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/a66fe75e-84e1-4c17-9f67-553886062652">
+
+
+## Prototype Pattern
+In some scenarios, creating an instance of a class is costly or complex. For instance, an object may involve expensive database operations or complex computations. The Prototype Pattern allows you to make new instances by copying existing ones, thus improving performance, and simplifying the creation process.
+
+***Example:***
+Let’s consider a scenario where we are managing meals in a restaurant. Creating a new meal from scratch might be costly, so we create a prototype meal and clone it to create new meal instances
+<img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/5a3d5c68-c51a-4115-9dac-52b8ed089e21">
+
+
+
 
 
 
