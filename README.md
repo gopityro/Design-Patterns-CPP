@@ -2,7 +2,7 @@
 <img width="1000" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/6c13b554-cc35-4c4d-a287-e470da992492">
 
 ## Creational Design Patterns
- ### Factory Method
+ ### 1. Factory Method
 Instead of directly instantiating concrete classes within client code, the Factory pattern allows you to delegate the responsibility of object creation to specialized factory classes or methods. These factories encapsulate the logic for creating instances of various related classes. Definitions always make confusing! 
 
 ***Example:***
@@ -10,7 +10,7 @@ Customers order meals at the restaurant, we need a flexible way to create differ
 
 <img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/76959992-6e41-474f-859a-2627f8fdd460">
 
-### Abstract Factory
+### 2. Abstract Factory
 The Abstract Factory pattern extends the concept of the Factory Method pattern by providing an interface for creating families of related or dependent objects. It allows you to encapsulate multiple factory methods within a single abstract factory interface, each responsible for creating a different family of related objects
 
 ***Example:***
@@ -19,7 +19,7 @@ We will continue the example described in Factory Method. In a restaurant, custo
 <img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/4d6ef590-8144-48ab-b543-9f1286f39f3b">
 
 
-### Builder Pattern
+### 3. Builder Pattern
 The Builder Pattern is used to construct a complex object step by step. Unlike the Factory Pattern, which focuses on the creation of a single object, the Builder Pattern constructs an object using a series of steps or a sequence of method calls.
 
 ***Example:***
@@ -28,12 +28,46 @@ In a restaurant scenario, meals can have multiple varieties of dishes, and custo
 <img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/a66fe75e-84e1-4c17-9f67-553886062652">
 
 
-### Prototype Pattern
+### 4. Prototype Pattern
 In some scenarios, creating an instance of a class is costly or complex. For instance, an object may involve expensive database operations or complex computations. The Prototype Pattern allows you to make new instances by copying existing ones, thus improving performance, and simplifying the creation process.
 
 ***Example:***
 Let’s consider a scenario where we are managing meals in a restaurant. Creating a new meal from scratch might be costly, so we create a prototype meal and clone it to create new meal instances
 <img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/5a3d5c68-c51a-4115-9dac-52b8ed089e21">
+
+### 5. Singleton pattern
+The Singleton pattern ensures a class has only one instance and provides a global point of access to that instance. This pattern is useful when exactly one object is needed to coordinate actions across the system.
+
+***Example:***
+Let's consider a scenario where we have a MealManager class responsible for managing meal-related operations in a restaurant system. We want to ensure that there's only one instance of MealManager throughout the application's lifecycle.
+
+<img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/d3e0a879-7f5a-489e-955a-8a59aefcc51b">
+
+## Structural Design Patterns
+### 1. Adaptor Pattern
+The Adapter Pattern allows objects with incompatible interfaces to work together. It acts as a bridge between two incompatible interfaces by wrapping an object with an interface that the client expects.
+
+***Example:***
+Imagine a restaurant that has upgraded to a new, modern meal preparation system but still needs to support the old, traditional system. The goal is to allow both systems to work together without modifying the existing code.
+
+<img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/6bdc9fd0-a9b2-4dac-817c-839798a3df7d">
+
+### 2. Bridge Pattern
+The Bridge Pattern decouples the abstraction from its implementation so that both can vary independently. This is useful when you want to avoid a proliferation of classes due to multiple combinations of abstractions and implementations.
+
+***Example:***
+Let's consider a scenario where we have different types of meals in a restaurant, and each meal can be prepared using different methods. We'll use the Bridge Pattern to separate the meal types (abstraction) from the preparation methods (implementation).
+
+<img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/5cbaccb9-822e-4b83-b1a9-dcb5806954b5">
+
+
+
+
+
+
+
+
+
 
 
 
