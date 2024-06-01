@@ -31,32 +31,37 @@ public:
     }
 };
 
-// Abstraction
+// Abstraction: Meal
 class Meal {
 protected:
-    std::unique_ptr<MealPreparation> preparationMethod;
+    std::unique_ptr<MealPreparation> preparationMethod; // Bridge to implementation
 public:
     Meal(std::unique_ptr<MealPreparation> prepMethod) : preparationMethod(std::move(prepMethod)) {}
     virtual ~Meal() = default;
     virtual void prepare() const = 0;
 };
 
-// Refined Abstractions
+
+// Refined Abstraction: VegetarianMeal
 class VegetarianMeal : public Meal {
 public:
     VegetarianMeal(std::unique_ptr<MealPreparation> prepMethod) : Meal(std::move(prepMethod)) {}
     void prepare() const override {
+        std::cout << "Preparing a vegetarian meal.\n";
         preparationMethod->prepare("Vegetarian Meal");
     }
 };
 
+// Refined Abstraction: NonVegetarianMeal
 class NonVegetarianMeal : public Meal {
 public:
     NonVegetarianMeal(std::unique_ptr<MealPreparation> prepMethod) : Meal(std::move(prepMethod)) {}
     void prepare() const override {
+        std::cout << "Preparing a non-vegetarian meal.\n";
         preparationMethod->prepare("Non-Vegetarian Meal");
     }
 };
+
 
 // Client Code
 int main() {
