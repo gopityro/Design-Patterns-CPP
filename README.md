@@ -60,6 +60,18 @@ Let's consider a scenario where we have different types of meals in a restaurant
 
 <img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/5cbaccb9-822e-4b83-b1a9-dcb5806954b5">
 
+### 3. Composite Pattern
+The Composite Pattern allows you to treat individual objects and compositions of objects uniformly. This means you can work with single items and groups of items in the same way, making your code more flexible and easier to maintain.
+
+***Example:***
+Imagine you have a restaurant menu where some items are individual dishes (like a pancake or a sandwich), and some items are categories of dishes (like breakfast or lunch menus) that contain other items.
+
+Using the Composite Pattern, you can treat both individual dishes and categories of dishes the same way. This means you can add a pancake to the breakfast menu or display all items in the menu (including sub-menus) using the same methods.
+
+<img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/90bb04a1-0169-496a-81ce-3fc7c9002c44">
+
+
+
 
 
 
