@@ -70,6 +70,14 @@ Using the Composite Pattern, you can treat both individual dishes and categories
 
 <img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/90bb04a1-0169-496a-81ce-3fc7c9002c44">
 
+### 4. Decorator Pattern
+
+The Decorator Pattern allows you to add new functionality to existing objects dynamically, without altering their structure. It involves creating decorator classes that wrap around the original object, providing additional behavior while maintaining compatibility with the base object's interface.
+
+***Example:***
+Let's consider a scenario where we have a base Meal class, and we want to add extra features to meals like "Extra Cheese" or "Spicy". Instead of creating multiple subclasses for each combination of features, we can use the Decorator Pattern to add these features dynamically.
+
+<img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/ee03ba0a-45d9-4b74-ad2a-8605586fec46">
 
 
 
