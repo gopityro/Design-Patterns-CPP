@@ -86,10 +86,24 @@ int main(int argc, const char * argv[]) {
     std::shared_ptr<MenuItem> menu3 = factory.getMenuItem("Pizza", "Delicious Pizza", 5.99);
 
     // Check if menu1 and menu2 are the same instance
-    std::cout << "menu1 and menu2 objects are the same instance?: " << (menu1 == menu2) << std::endl;
-
+    if(menu1 == menu2)
+    {
+        std::cout << "menu1 and menu2 objects are same instances"<<std::endl;
+    }
+    else
+    {
+        std::cout << "menu1 and menu2 objects are not same instances"<<std::endl;
+    }
+    
     // Check if menu2 and menu3 are different instances
-    std::cout << "menu2 and menu3 objects are the same instance?: " << (menu3 == menu2) << std::endl;
+    if(menu3 == menu2)
+    {
+        std::cout << "menu2 and menu3 objects are the same instances"<< std::endl;
+    }
+    else
+    {
+        std::cout << "menu2 and menu3 objects are not same instances"<< std::endl;
+    }
 
     return 0;
 }
