@@ -79,24 +79,28 @@ Let's consider a scenario where we have a base Meal class, and we want to add ex
 
 <img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/ee03ba0a-45d9-4b74-ad2a-8605586fec46">
 
+### 5. Facade Pattern
 
+The Facade Design Pattern provides a simplified interface to a set of interfaces in a subsystem (other set of classes), making it easier to use.
 
+***Example:***
+In a restaurant, preparing a meal involves multiple steps like meal preparation and notifying the customer when the meal is ready. We can use the Facade Pattern to simplify these interactions for the client.
 
+<img width="500" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/aa9f44c6-7e98-4045-bd84-445df23f8acd">
 
+### 6. Flyweight Pattern
+The Flyweight Design Pattern allows you to minimize memory usage by sharing common parts of the state between multiple objects, instead of keeping all data in each object.
 
+***Example:***
+Imagine a scenario where a restaurant has an extensive menu with many items, and each item has a name, description, and price. If we have many orders, instead of creating a separate object for each menu item in every order, we can use the Flyweight pattern to share the common data (name, description, price) among the orders.
 
+<img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/9bc159dd-15e8-4769-9cc2-322a29fb19b4">
 
+### 7. Proxy Pattern
+The Proxy Pattern provides a surrogate or placeholder for another object to control access to it. This can be useful in various scenarios such as lazy initialization, access control, logging, or even adding some functionality before or after the actual object’s method execution.
 
+***Example:***
+Imagine a meal preparation system where accessing the kitchen directly might be too expensive or requires some form of access control. We can use a proxy to control access to the kitchen.
 
-
-
-
-
-
-
-
-
-
-
-
+<img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/cad28933-c57f-45a1-ac6c-b8572118f776">
 
