@@ -88,6 +88,16 @@ In a restaurant, preparing a meal involves multiple steps like meal preparation 
 
 <img width="500" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/aa9f44c6-7e98-4045-bd84-445df23f8acd">
 
+### 6. Flyweight Pattern
+The Flyweight Design Pattern allows you to minimize memory usage by sharing common parts of the state between multiple objects, instead of keeping all data in each object.
+
+***Example:***
+Imagine a scenario where a restaurant has an extensive menu with many items, and each item has a name, description, and price. If we have many orders, instead of creating a separate object for each menu item in every order, we can use the Flyweight pattern to share the common data (name, description, price) among the orders.
+
+<img width="600" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/9bc159dd-15e8-4769-9cc2-322a29fb19b4">
+
+
+
 
 
 
