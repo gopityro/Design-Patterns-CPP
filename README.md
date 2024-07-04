@@ -96,32 +96,11 @@ Imagine a scenario where a restaurant has an extensive menu with many items, and
 
 <img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/9bc159dd-15e8-4769-9cc2-322a29fb19b4">
 
+### 7. Proxy Pattern
+The Proxy Pattern provides a surrogate or placeholder for another object to control access to it. This can be useful in various scenarios such as lazy initialization, access control, logging, or even adding some functionality before or after the actual object’s method execution.
 
+***Example:***
+Imagine a meal preparation system where accessing the kitchen directly might be too expensive or requires some form of access control. We can use a proxy to control access to the kitchen.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/cad28933-c57f-45a1-ac6c-b8572118f776">
 
