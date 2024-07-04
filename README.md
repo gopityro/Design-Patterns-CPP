@@ -79,6 +79,21 @@ Let's consider a scenario where we have a base Meal class, and we want to add ex
 
 <img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/ee03ba0a-45d9-4b74-ad2a-8605586fec46">
 
+### 5. Facade Pattern
+
+The Facade Design Pattern provides a simplified interface to a set of interfaces in a subsystem (other set of classes), making it easier to use.
+
+***Example:***
+In a restaurant, preparing a meal involves multiple steps like meal preparation and notifying the customer when the meal is ready. We can use the Facade Pattern to simplify these interactions for the client.
+
+<img width="500" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/aa9f44c6-7e98-4045-bd84-445df23f8acd">
+
+
+
+
+
+
+
 
 
 
