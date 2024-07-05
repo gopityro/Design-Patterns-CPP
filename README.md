@@ -104,3 +104,14 @@ Imagine a meal preparation system where accessing the kitchen directly might be 
 
 <img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/cad28933-c57f-45a1-ac6c-b8572118f776">
 
+## Behavioral Design Patterns
+### 1. Observer Pattern
+The Observer Pattern defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically. This pattern is often used to implement distributed event handling systems.
+
+***Example:***
+In a meal ordering system, we can use the Observer Pattern to notify multiple components (observers) about changes in the order status. For example, when an order is placed or updated, the kitchen staff, the billing system, and the customer should be notified.
+
+<img width="500" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/e6ccd52c-a77c-4209-8c0f-fb1b6728a88e">
+
+
+
