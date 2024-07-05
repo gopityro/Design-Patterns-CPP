@@ -111,7 +111,7 @@ The Observer Pattern defines a one-to-many dependency between objects so that wh
 ***Example:***
 In a meal ordering system, we can use the Observer Pattern to notify multiple components (observers) about changes in the order status. For example, when an order is placed or updated, the kitchen staff, the billing system, and the customer should be notified.
 
-<img width="500" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/e6ccd52c-a77c-4209-8c0f-fb1b6728a88e">
+<img width="600" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/e6ccd52c-a77c-4209-8c0f-fb1b6728a88e">
 
 
 
