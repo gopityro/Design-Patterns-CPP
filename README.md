@@ -113,5 +113,16 @@ In a meal ordering system, we can use the Observer Pattern to notify multiple co
 
 <img width="600" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/e6ccd52c-a77c-4209-8c0f-fb1b6728a88e">
 
+### 2. State Pattern
+The State Design Pattern allows an object to change its behavior when its internal state changes. The object will appear to change its class.
+
+***Example:***
+
+Let’s consider a scenario where we have an Order in a restaurant that can be in different states: Placed, Prepared, and Delivered. Each state will have its own behavior for processing the order.
+
+
+<img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/bced8eb7-0288-4727-809f-f75d76565298">
+
+
 
 
