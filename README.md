@@ -133,9 +133,11 @@ In a restaurant, you might have different strategies for cooking a meal based on
 
 <img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/c2e88f95-1a1d-43d5-b31c-761f74570248">
 
+### 4. Visitor Pattern
+The Visitor pattern lets you add further operations to objects without having to modify them. It separates an algorithm from the object structure on which it operates, allowing you to add new operations to existing object structures without modifying those structures.
 
+***Example:*** Let’s consider a scenario where we have different types of menu items in a restaurant, and we want to apply various operations to them, such as calculating their price, checking dietary restrictions.
 
-
-
+<img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/cb37bc21-e936-475c-9109-e485e7fdc3ad">
 
 
