@@ -123,6 +123,19 @@ Let’s consider a scenario where we have an Order in a restaurant that can be i
 
 <img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/bced8eb7-0288-4727-809f-f75d76565298">
 
+### 3. Strategy Pattern
+The Strategy pattern allows you to define a family of algorithms, encapsulate each one as a separate class, and make them interchangeable. It lets the algorithm vary independently from clients that use it.
+
+***Note:*** The State and Strategy Patterns look almost the same.
+
+***Example:***
+In a restaurant, you might have different strategies for cooking a meal based on dietary preferences: Vegetarian, Vegan, and Non-Vegetarian. Each cooking strategy has its own way of preparing the meal.
+
+<img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/c2e88f95-1a1d-43d5-b31c-761f74570248">
+
+
+
+
 
 
 
