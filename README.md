@@ -140,4 +140,9 @@ The Visitor pattern lets you add further operations to objects without having to
 
 <img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/cb37bc21-e936-475c-9109-e485e7fdc3ad">
 
+### 5. Chain of Responsibility Pattern
+The Chain of Responsibility pattern allows an object to pass a request along a chain of potential handlers until the request is handled. This pattern decouples the sender and receiver of a request and allows multiple objects to handle the request without knowing about each other.
 
+***Example:*** Let’s consider a scenario in a restaurant where we need to process different levels of orders: RegularOrder, UrgentOrder, and VIPOrder. Each level has its own handler, and if a handler can’t process the order, it passes the request to the next handler in the chain.
+
+<img width="700" alt="image" src="https://github.com/gopityro/Design-Patterns-CPP/assets/25153647/3b65186c-f85c-4b2b-b823-960e3a9549ee">
